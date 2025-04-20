@@ -1,44 +1,4 @@
 
-// Color palette
-export const colors = {
-  // Primary colors
-  primary: '#33c3f0',
-  primaryHover: '#1eaedb',
-  primaryLight: '#e5f7fc',
-  
-  // Secondary colors
-  secondary: '#7E69AB',
-  secondaryHover: '#6E59A5',
-  secondaryLight: '#E5DEFF',
-  
-  // Background colors
-  background: '#F8F7F3',
-  backgroundLight: '#FFFFFF',
-  backgroundDark: '#1A1F2C',
-  
-  // Text colors
-  textPrimary: '#1A1F2C',
-  textSecondary: '#8E9196',
-  textLight: '#FFFFFF',
-  
-  // Accents
-  accent: '#2E7D32',
-  accentHover: '#256E29',
-  
-  // State colors
-  success: '#4CAF50',
-  error: '#EA384C',
-  warning: '#FFC107',
-  info: '#0EA5E9',
-  
-  // Border and dividers
-  border: '#E2E0D8',
-  divider: '#F1F0FB',
-  
-  // Overlay
-  overlay: 'rgba(0, 0, 0, 0.6)',
-};
-
 // Font families
 export const fonts = {
   primary: "'Inter', sans-serif",
@@ -151,3 +111,106 @@ export const zIndices = {
   tooltip: 1400,
   toast: 1500,
 };
+
+// Theme 1: Modern Purple
+export const colors1 = {
+  primary: '#9b87f5',
+  primaryHover: '#8B5CF6',
+  primaryLight: '#E5DEFF',
+  secondary: '#7E69AB',
+  secondaryHover: '#6E59A5',
+  secondaryLight: '#D6BCFA',
+  background: '#F8F7F3',
+  backgroundLight: '#FFFFFF',
+  backgroundDark: '#1A1F2C',
+  textPrimary: '#1A1F2C',
+  textSecondary: '#8E9196',
+  textLight: '#FFFFFF',
+  accent: '#D946EF',
+  accentHover: '#C026D3',
+  success: '#4CAF50',
+  error: '#EA384C',
+  warning: '#FFC107',
+  info: '#0EA5E9',
+  border: '#E2E0D8',
+  divider: '#F1F0FB',
+  overlay: 'rgba(0, 0, 0, 0.6)',
+};
+
+// Theme 2: Ocean Blue
+export const colors2 = {
+  primary: '#33C3F0',
+  primaryHover: '#1EAEDB',
+  primaryLight: '#E5F7FC',
+  secondary: '#0EA5E9',
+  secondaryHover: '#0284C7',
+  secondaryLight: '#D3E4FD',
+  background: '#F0F9FF',
+  backgroundLight: '#FFFFFF',
+  backgroundDark: '#0C4A6E',
+  textPrimary: '#0C4A6E',
+  textSecondary: '#64748B',
+  textLight: '#FFFFFF',
+  accent: '#06B6D4',
+  accentHover: '#0891B2',
+  success: '#4CAF50',
+  error: '#EA384C',
+  warning: '#FFC107',
+  info: '#0EA5E9',
+  border: '#E2E8F0',
+  divider: '#F1F5F9',
+  overlay: 'rgba(0, 0, 0, 0.6)',
+};
+
+// Theme 3: Forest Green
+export const colors3 = {
+  primary: '#2E7D32',
+  primaryHover: '#256E29',
+  primaryLight: '#F2FCE2',
+  secondary: '#4CAF50',
+  secondaryHover: '#43A047',
+  secondaryLight: '#E8F5E9',
+  background: '#F5FBF6',
+  backgroundLight: '#FFFFFF',
+  backgroundDark: '#1B5E20',
+  textPrimary: '#1B5E20',
+  textSecondary: '#66796B',
+  textLight: '#FFFFFF',
+  accent: '#66BB6A',
+  accentHover: '#57A65C',
+  success: '#4CAF50',
+  error: '#EA384C',
+  warning: '#FFC107',
+  info: '#0EA5E9',
+  border: '#E8F5E9',
+  divider: '#F1F8E9',
+  overlay: 'rgba(0, 0, 0, 0.6)',
+};
+
+// Theme 4: Warm Sunset
+export const colors4 = {
+  primary: '#F97316',
+  primaryHover: '#EA580C',
+  primaryLight: '#FDE1D3',
+  secondary: '#FEC6A1',
+  secondaryHover: '#FB923C',
+  secondaryLight: '#FEF7CD',
+  background: '#FFF7ED',
+  backgroundLight: '#FFFFFF',
+  backgroundDark: '#7C2D12',
+  textPrimary: '#7C2D12',
+  textSecondary: '#9A3412',
+  textLight: '#FFFFFF',
+  accent: '#FB923C',
+  accentHover: '#F97316',
+  success: '#4CAF50',
+  error: '#EA384C',
+  warning: '#FFC107',
+  info: '#0EA5E9',
+  border: '#FFEDD5',
+  divider: '#FFF7ED',
+  overlay: 'rgba(0, 0, 0, 0.6)',
+};
+
+// Color palette
+export const colors = colors1;

@@ -6,6 +6,7 @@ import Gallery from '@/components/ui/Gallery';
 import ImageTextSection from '@/components/ui/ImageTextSection';
 import { colors, fonts, fontSizes, fontWeights, spacing, borderRadius, media } from '@/styles/constants-styles';
 import styled from 'styled-components';
+import dynamic from "next/dynamic";
 
 // Styled components
 const HeroSection = styled.section`
@@ -310,4 +311,6 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default dynamic(() => Promise.resolve(Home), {
+  ssr: false
+})
