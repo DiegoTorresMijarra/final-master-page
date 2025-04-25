@@ -213,4 +213,4 @@ export const colors4 = {
 };
 
 // Color palette
-export const colors = colors1;
+export const colors = colors2;

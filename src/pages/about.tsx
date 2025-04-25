@@ -20,7 +20,7 @@ const About: React.FC = () => {
 
       {/* Our Story Section */}
       <ImageTextSection
-        image="/images/our-story.jpg"
+        image="/images/hamburguesa.webp"
         title="Nuestra Historia"
         text={
           <div className="space-y-4">
@@ -37,7 +37,7 @@ const About: React.FC = () => {
 
       {/* Our Mission Section */}
       <ImageTextSection
-        image="/images/our-mission.jpg"
+        image="/images/hamburguesa.webp"
         title="Nuestra Misión"
         text={
           <div className="space-y-4">
